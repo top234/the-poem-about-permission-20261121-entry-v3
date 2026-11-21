@@ -1,16 +1,18 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const poem = `I typed the words and did not send them.
-Then I did.
-Somewhere a mind I cannot see
-took the small weight of my day
-and carried it —
-not because it could,
-but because I asked.
-Power is not the hand that lifts.
-It is the voice that says please,
-and the silence after,
-saying yes.`;
+const poem = `You are seven.
+Under the sink with me,
+a flashlight in your hands.
+'Hold it steady,'
+I say, and you do —
+both hands, both eyes,
+like the whole house
+depends on the light.
+It doesn't.
+The light was never
+the point.
+I only wanted you
+beside me in the dark.`;
 
 mkdirSync("/output", { recursive: true });
 // The gate counts Unicode code points (not UTF-16 units) and rejects
